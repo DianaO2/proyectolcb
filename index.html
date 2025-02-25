@@ -8,32 +8,39 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
+    <header>
+        <nav class="nav">
+           <ul class="items"> 
+                    <li><a href="#">Alquiler</a></li>
+                    <li><a href="#">Bufés</a></li>
+                    <li><a href="#">Cotizaciones</a></li>
+                    <li><a href="#">Contactos</a></li>
+                </ul> 
+        </nav>
+    </header>
 
     <main class="main">
         <div class="top">
-            <div class="nav">
+            <div class="navres">
                 <i class="fa fa-bars menu-icon" aria-hidden="true"></i> 
                  <!-- muestra el icono del menù -->
                 <div class="links-div">
                     <ul class="link"> 
                         <ul class="links">
                             <li><a href="#">Alquiler</a></li>
-                            <li><a href="#">Comidas</a></li>
-                            <li><a href="#"></a></li>
-                            <li><a href="#"></a></li>
-                            <li><a href="#"></a></li>
+                            <li><a href="#">Bufés</a></li>
                             <li><a href="#">Cotizaciones</a></li>
                             <li><a href="#">Contactos</a></li>
                         </ul>
                     </ul>
                 </div>
             </div>
-            <div class="signup">
+            <!-- <div class="signup">
                 <ul>
                     <li><a href="">Sig up</a></li>
                     <li><a href="">Login</a></li>
                 </ul>
-            </div>
+            </div> -->
         </div>
         <div class="center">
             <div>
@@ -45,7 +52,7 @@
              <div>
                 <!-- <input type="text" class="search" name="search" placeholder="Encuentra aqui">
                 <span><i class="fa fa-search" aria-hidden="true"></i></span>-->
-                <ul class="links"> 
+                <!-- <ul class="links"> 
                     <li><a href="#">Alquiler</a></li>
                     <li><a href="#">Bufés</a></li>
                     <li><a href="#"></a></li>
@@ -53,20 +60,70 @@
                     <li><a href="#"></a></li>
                     <li><a href="#">Cotizaciones</a></li>
                     <li><a href="#">Contactos</a></li>
-                </ul>
+                </ul> -->
              </div>
         </div>
-
-        <div class="bottom">
-            <div class="social">
-                <ul>
-                    <li><a href=""><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
-                    <li><a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                </ul>
+        <section id="gallery">
+            <div class="gallery-container">
+                <figure class="gallery-item">
+                    <img src="img/gallery 1.jpg" alt="bases de pudin blancas">
+                    <!-- <figcaption>Bases para pudines</figcaption> -->
+                </figure>
+                <figure class="gallery-item">
+                    <img src="img/gallery 2.jpeg" alt="evento grados universidad">
+                    <!-- <figcaption>Silleteria vestida para eventos</figcaption> -->
+                </figure>
+                <figure class="gallery-item">
+                    <img src="img/gallery 3.jpg" alt="evento azul">
+                    <!-- <figcaption>Evento Azul Rey</figcaption> -->
+                </figure>
+                <figure class="gallery-item">
+                    <img src="img/gallery 4.jpg" alt="evento rojo y verde">
+                    <!-- <figcaption>Evento Navidad</figcaption> -->
+                </figure>
+                <figure class="gallery-item">
+                    <img src="img/gallery 5.jpg" alt="sillas novios">
+                    <!-- <figcaption>Silla de novios</figcaption> -->
+                </figure>
+                <figure class="gallery-item">
+                    <img src="img/gallery 6.jpg" alt="buffet">
+                    <!-- <figcaption>Buffet</figcaption> -->
+                </figure>
+                <figure class="gallery-item">
+                    <img src="img/gallery 7.jpg" alt="montaje de buffet">
+                    <!-- <figcaption>Montaje de buffet</figcaption> -->
+                </figure>
+                <figure class="gallery-item">
+                    <img src="img/gallery 8.jpg" alt="castillo inflable">
+                    <!-- <figcaption>Castillo inflable</figcaption> -->
+                </figure>
+                <figure class="gallery-item">
+                    <img src="img/gallery 9.jpeg" alt="evento verde y blanco">
+                    <!-- <figcaption>Evento verde y blanco</figcaption> -->
+                </figure>
+                <figure class="gallery-item">
+                    <img src="img/gallery 10.jpg" alt="tabla de quesos">
+                    <!-- <figcaption>Tabla de quesos</figcaption> -->
+                </figure>
             </div>
-        </div>
-    </main>
+            <nav class="gallery-navigation">
+                <button class="nav-button prev-button"><i class="fa solid fa-angle-left"></i></button>
+                <button class="nav-button next-button"><i class="fa solid fa-angle-right"></i></button>
+            </nav>
+        </section>
 
+    </main>
+    
+<footer>
+    <div class="bottom">
+        <div class="social">
+            <ul>
+                <li><a href=""><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+                <li><a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
     
 </body>
 <script src="script.js"></script>

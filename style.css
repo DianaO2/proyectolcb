@@ -21,6 +21,35 @@ a{
     color: white;
     font-size: 1.2rem;
   }
+.nav{
+    height:5vh ;
+    padding: .5em;
+    position: relative;
+   
+    
+}
+.nav ul{
+    display: flex;
+    justify-content:flex-end;
+}
+.nav .items li{
+  margin-left: 1em;
+  
+}
+
+.nav .items li a{
+    padding: .35em .85em;
+    /* background-color: transparent; */
+    color: black;
+    /* border:1px solid red; */
+    /* border-radius: 6px; */
+    transition: 300ms;
+}
+.nav .items li a:hover{
+    /* background-color: white; */
+    color:#505050;
+}
+
 
 .main{
     padding: 1.5em;
@@ -65,7 +94,7 @@ justify-content: space-between;
     display: block;
     margin-top: 1.5em;
 }
-.main .top .links-div .link li a{
+.main .top .links-div.link li a{
     color: #505050;
     font-weight: bold;
 
@@ -76,7 +105,7 @@ justify-content: space-between;
     transform: 800ms;
 }
 
-.main .top .signup li {
+/* .main .top .signup li {
     margin-left: 1em;
 }
 .main .top .signup li a{
@@ -89,7 +118,7 @@ justify-content: space-between;
 .main .top .signup li a:hover{
     background-color: white;
     color:#505050;
-}
+} */
 .main .center {
     position: relative;
     left: 50%;
@@ -123,6 +152,7 @@ justify-content: space-between;
     cursor: pointer;
     padding: .5em;
 }
+
 .main ul li {
     margin: .5em .75em;
 }
@@ -174,7 +204,7 @@ justify-content: space-between;
     .main .center .search {
         width: 100%;
     }
-    .main .center .links{
+    .nav .items {
         display: none;
     }
     .main .top .fa{
@@ -182,3 +212,51 @@ justify-content: space-between;
         visibility: visible;
     }
   }
+/* estilo básico para el slaider */
+  #gallery{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+  }
+
+  .gallery-container{
+    display: flex;
+    transition: transfrom 0.5s ease-in-out;
+  }
+
+  .gallery-item{
+    min-width: 25%;
+    box-sizing: border-box;
+  }
+
+  .gallery-item img{
+    width: 100%;
+    /* width: 300px; */
+    height: 200px;
+    object-fit: cover;
+    display: block;
+    border: 5px;
+  }
+
+/* navegación del slider */
+.gallery-navigation{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: -130px;
+}
+
+.nav-button {
+    background-color: rgba(128,128,128, 0.5);
+    color:white;
+    border: none;
+    padding: 4px 10px;
+    font-size: 24px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-button:hover{
+     background-color: rgba(128,128,128, 0.8);
+}
